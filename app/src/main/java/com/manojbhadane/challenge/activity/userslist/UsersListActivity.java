@@ -109,10 +109,8 @@ public class UsersListActivity extends BaseActivity implements UsersListView, On
     @Override public boolean onCreateOptionsMenu(Menu menu)
     {
         getMenuInflater().inflate(R.menu.menu_users_list, menu);
-
         final MenuItem myActionMenuItem = menu.findItem(R.id.menu_search);
         final SearchView searchView = (SearchView) myActionMenuItem.getActionView();
-
         ((TextView) searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text)).setTypeface(App.getUbuntuTypeFace());
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener()
@@ -132,7 +130,6 @@ public class UsersListActivity extends BaseActivity implements UsersListView, On
                 return false;
             }
         });
-
         return super.onCreateOptionsMenu(menu);
     }
 }
