@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Class : E:/StudioProjects/TBA/Development/RetailerApp/app/src/main/res/laylayout_toolbarxml.xml
+  ~ Author : iT Gurus Software
+  ~ Copyright (C) 2016, iT Gurus Software. All rights reserved.
+  -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/error_internet"
+        android:textSize="@dimen/lsl_listitem_subtext_textsize"/>
+
+    <Button
+        android:id="@+id/btn_retry"
+        style="@style/Button.Theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_error"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/lsl_listitem_marginT"
+        android:text="@string/btn_retry"/>
+
+</RelativeLayout>

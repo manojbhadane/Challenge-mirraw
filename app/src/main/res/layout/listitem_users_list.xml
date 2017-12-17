@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lsl_listitem_H"
+        android:layout_marginTop="@dimen/lsl_listitem_marginT"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="0dp"
+        app:cardPreventCornerOverlap="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/lsl_listitem_margin">
+
+            <com.manojbhadane.challenge.customview.RoundedImageView
+                android:id="@+id/img_profile"
+                android:layout_width="@dimen/lsl_listitem_profile_WH"
+                android:layout_height="@dimen/lsl_listitem_profile_WH"
+                android:src="@mipmap/ic_launcher_round"
+                app:civ_border_color="@color/colorAccent"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/txt_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lsl_listitem_marginL"
+                android:layout_toRightOf="@+id/img_profile"
+                android:text="Manoj Bhadane"
+                android:textColor="@color/black"
+                android:textSize="@dimen/lsl_listitem_username_textsize"/>
+
+            <TextView
+                android:id="@+id/txt_sub_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_user_name"
+                android:layout_marginLeft="@dimen/lsl_listitem_marginL"
+                android:layout_marginTop="@dimen/lsl_listitem_subtext_marginT"
+                android:layout_toRightOf="@+id/img_profile"
+                android:text="Software engineer"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/lsl_listitem_subtext_textsize"/>
+
+            <TextView
+                android:id="@+id/txt_sub_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sub_text1"
+                android:layout_marginLeft="@dimen/lsl_listitem_marginL"
+                android:layout_marginTop="@dimen/lsl_listitem_subtext_marginT"
+                android:layout_toRightOf="@+id/img_profile"
+                android:text="14 yrs exp  \u25cf  INR 300"
+                android:textColor="@color/pocket_color_2"
+                android:textSize="@dimen/lsl_listitem_subtext_textsize"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

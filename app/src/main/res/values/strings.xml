@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Manoj_Bhadane</string>
+
+    <string name="btn_retry">RETRY</string>
+    <string name="title_users_list">Mirraw users</string>
+
+    <!--Error messages-->
+    <string name="error_internet">Check your connection and try again</string>
+    <string name="error_no_users">Opps.. users not available</string>
+
+</resources>

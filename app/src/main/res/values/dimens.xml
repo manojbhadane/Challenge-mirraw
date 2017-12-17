@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--listitem users list-->
+    <dimen name="lsl_listitem_H">100dp</dimen>
+    <dimen name="lsl_listitem_marginT">10dp</dimen>
+    <dimen name="lsl_listitem_margin">10dp</dimen>
+    <dimen name="lsl_listitem_profile_WH">50dp</dimen>
+    <dimen name="lsl_listitem_username_textsize">22sp</dimen>
+    <dimen name="lsl_listitem_subtext_textsize">15sp</dimen>
+    <dimen name="lsl_listitem_subtext_marginT">5dp</dimen>
+    <dimen name="lsl_listitem_marginL">10dp</dimen>
+
+    <!--progressbar-->
+    <dimen name="prg_WH">30dp</dimen>
+    <dimen name="prg_margin">10dp</dimen>
+
+</resources>
