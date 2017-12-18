@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Class : E:/StudioProjects/TBA/Development/RetailerApp/app/src/main/res/laylayout_toolbarxml.xml
-  ~ Author : iT Gurus Software
-  ~ Copyright (C) 2016, iT Gurus Software. All rights reserved.
-  -->
-
 <android.support.v7.widget.Toolbar
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ToolBarStyle"
